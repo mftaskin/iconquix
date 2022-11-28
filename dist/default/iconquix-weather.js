@@ -1,0 +1,11 @@
+const iconQuixDataWeather  = {
+    'weather-cloudy': '<path d="m21 15.65a4 4 0 00-3-6.65 1 1 0 00-11-2 5 5 0 00-5 4.5m13 9.5a1 1 0 000-7 1 1 0 00-8-1 1 1 0 00-2 8z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-foggy': '<path d="m18 16a1 1 0 000-7.5 1 1 0 00-11-1.5 1 1 0 000 9zm-13 3h8m4 0h3m-15 3h5m4 0h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-partly': '<path d="m15 21a1 1 0 000-7 1 1 0 00-8-1 1 1 0 00-2 8zm1.8-10a3 3 0 00-5.05-3m2.25-4v-2m6 8h2m-3.6-4.4 1.6-1.6m-10.4 1.6-1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-rain': '<path d="m18 16a1 1 0 000-7.5 1 1 0 00-11-1.5 1 1 0 000 9zm-4 2-2 4m-2-4-2 4m-2-4-1.5 3m13.5-3-1.5 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-snow': '<path d="m12 2v20m-10-10h20m-15-5 10 10m0-10-10 10m2-13 3 3 3-3m-6 16 3-3 3 3m-11-11 3 3-3 3m16-6-3 3 3 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-snowy': '<path d="m18 16a1 1 0 000-7.5 1 1 0 00-11-1.5 1 1 0 000 9zm-13 3a.5.5 0 001.4 0 .5.5 0 00-1.4 0zm3 2.4a.5.5 0 001.4 0 .5.5 0 00-1.4 0zm3-2.4a.5.5 0 001.4 0 .5.5 0 00-1.4 0zm3 2.4a.5.5 0 001.4 0 .5.5 0 00-1.4 0zm4-2.4a.5.5 0 001.4 0 .5.5 0 00-1.4 0z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-storm': '<path d="m17 16 1 0a1 1 0 000-7.5 1 1 0 00-11-1.5 1 1 0 000 9m5-5-2 5 4-1-3 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-sun': '<path d="m9 12a1 1 0 006 0 1 1 0 00-6 0zm3-6v-2m0 14v2m-6-8h-2m14 0 2 0m-3.6-4.4 1.6-1.6m-1.6 10.4 1.6 1.6m-10.4-1.6-1.6 1.6m1.6-10.4-1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'weather-windy': '<path d="m20.5 15a3.6 3.6 0 00-2.5-6.5 1 1 0 00-11-1.5 4.4 4.4 0 00-3 8m3 0h8a1 1 0 000-4 2 2 0 00-1.5.5m-8.5 6.5h13a1 1 0 010 4 2 2 0 01-1.5-.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+};
