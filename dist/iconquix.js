@@ -5,6 +5,7 @@ const iconQuixData = {
     ...((typeof iconQuixDataBrands !== 'undefined') ? iconQuixDataBrands : {}),
     ...((typeof iconQuixDataFilesFolders !== 'undefined') ? iconQuixDataFilesFolders : {}),
     ...((typeof iconQuixDataSpinners !== 'undefined') ? iconQuixDataSpinners : {}),
+    ...((typeof iconQuixDataVehicles !== 'undefined') ? iconQuixDataVehicles : {}),
     ...((typeof iconQuixDataWeather !== 'undefined') ? iconQuixDataWeather : {}),
 };
 class iconQuix extends HTMLElement {
