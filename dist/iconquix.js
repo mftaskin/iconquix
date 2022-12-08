@@ -9,7 +9,8 @@ class iconQuix extends HTMLElement {
         let svgElement = new DOMParser().parseFromString(svgString, 'image/svg+xml').querySelector('svg');
         if (attrList.length > 0) {
             attrList.forEach((attrItem) => {
-                svgElement.setAttribute(attrItem, this.getAttribute(attrItem));
+                if (attrItem !== 'icon')
+                    svgElement.setAttribute(attrItem, this.getAttribute(attrItem));
             });
         }
         iconParent.replaceChild(svgElement, this);
