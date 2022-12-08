@@ -16,6 +16,7 @@ const iconQuixData  = {
     'bell-ring': '<path d="m20 16a9 9 0 01-2-6v-1a1 1 0 00-12 0v1a9 9 0 01-2 6 20 20 0 0016 0zm-11 1.45a.9 1 0 006 0m-11-13.45a8 8 0 00-2 5m18-5a8 8 0 012 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'bluetooth': '<path d="m7.27 7.5 9.98 9.5-5.25 5v-20l5.26 5-9.99 9.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'bolt': '<path d="m6 14 8-12-1 9 5-1-8 12 1-9z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'bomb': '<path d="m14 7a1 1 0 00-8 14 8.1 8.1 0 0011-11l1-1-3-3zm2.5.5 1.5-1.5m-9 3a5 5 0 00-4 4m15.5-11v3m-1.5-1.5h3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'book': '<path d="m12 5c-2-2-5-3-9-2v14c4-1 7 0 9 2 2-2 5-3 9-2v-14c-4-1-7 0-9 2zm-9 15c4-1 7 0 9 2 2-2 5-3 9-2m-9-15v14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'bookmark': '<path d="m19 5v16l-7-4-7 4v-16a2 2 0 012-2h10a2 2 0 012 2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'bug': '<path d="m6 9v6a1 1 0 0012 0v-6a5 2.5 0 00-12 0zm3-2.6a1 1.1 0 016 0m-9 5.6h-4m16 0h4m-4-3a3 3 0 002-3m-14 3a3 3 0 01-2-3m2 9-3 4m15-4 3 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
@@ -30,6 +31,7 @@ const iconQuixData  = {
     'check-circle': '<path d="m2 12a1 1 0 0020 0 1 1 0 00-20 0zm6.25 1.75 2.25 2 5.25-7.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'clock': '<path d="m2 12a1 1 0 0020 0 1 1 0 00-20 0zm10-6v6m0 0h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'cloud': '<path d="m18 19a1 1 0 000-9 5 5 0 00-12 1 4 4 0 001 8z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'cloud-fill': '<path d="m18 19a1 1 0 000-9 5 5 0 00-12 1 4 4 0 001 8z" fill="currentColor" fill-rule="evenodd" />',
     'cloud-down': '<path d="m18 19a1 1 0 000-9 5 5 0 00-12 1 4 4 0 001 8zm-8-6 2 2 2-2m-2 2v-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'cloud-up': '<path d="m18 19a1 1 0 000-9 5 5 0 00-12 1 4 4 0 001 8zm-8-7 2-2 2 2m-2-2v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'code': '<path d="m7 7-5 5 5 5m7-11-4 12m7-11 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
@@ -189,7 +191,9 @@ const iconQuixData  = {
     'video-off': '<path d="m4 6a2 2 0 00-2 2v8a2 2 0 002 2h7m3.15-.03a2 2 0 001.85-1.97v-8a2 2 0 00-2-2h-7.17m11.17 9 4 3v-12l-4 3m-13-6 11 18m-11-6.5a.5.5 0 001 0 .5.5 0 00-1 0z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     // drinks
     'beer': '<path d="m3.5 6v13a2.5 3 0 002.5 3h8a2.5 3 0 002.5-3v-13zm13 2h2a2 2 0 012 2v4c0 1-.2 1.91-1 2.5l-3 2m-12.5-12.5v-1a2 2 0 014-1 1 1 0 014 0 1 1 0 014 1v1m-9 3v10m3-10v10m3-10v10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'cold-straw': '<path d="m6 10 1 11a1 1 0 001 1h8a1 1 0 001-1l1-11m2-2a1 1 0 00-1-1h-14a1 1 0 00-1 1m8-1 1-4 2-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     'coffee': '<path d="m2 11v8a3 3 0 003 3h8a3 3 0 003-3v-8zm14 3a2 2 0 014 1c-1 2-3 2-4 4m-12-15c.5 1.25.5 1.25 0 2.5-.5 1.25-.5 1.25 0 2.5m5-7c1 1.5 1 2 0 3.5-1 1.5-1 2 0 3.5m5-5c.5 1.25.5 1.25 0 2.5-.5 1.25-.5 1.25 0 2.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
+    'coffee-takeaway': '<path d="m6 9 1 11a1 1 0 001 1h8a1 1 0 001-1l1-11m2-2a1 1 0 00-1-1h-14a1 1 0 00-1 1m14-1-1.5-3h-9l-1.5 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="m6.18 11 .55 6h10.54l.55-6z" fill="currentColor" fill-rule="evenodd" />',
     'wine': '<path d="m7 2c-.5 2-1 4-1 5a1 1 0 0012 0c0-1-.5-3-1-5zm5 11v9m-4 0h8m-9.7-17h11.4m-9.2 3a4 4 0 002.5 2.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
     // files folders
     'file': '<path d="m6 2a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2v-10a4 4 0 00-1-3l-4-4a4 4 0 00-3-1zm5 0a2 2 0 012 2v3a2 2 0 002 2h3a2 2 0 012 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />',
